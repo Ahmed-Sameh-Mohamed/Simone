@@ -1,0 +1,310 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* webkit-tap-highlight-color: transparent; */
+ 
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    /* position: fixed; */
+}
+.container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    padding: 15px;
+}
+.navbar .logo{
+    
+    width: 30%;
+    align-items: center;
+}
+.logo h2{
+    font-size:30px;
+    width: 100%;
+}
+.navs{
+    width: 70%;
+
+}
+.home{
+    background-image: url(intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    color: #dee3e4
+}
+.home .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home button{
+    padding: 15px;
+    color: #20c997;
+    border-color: #20c997;
+    border-radius: 50rem;
+    margin-top: 10px;
+}
+.home button:hover{
+   background-color: #20c997;  
+   color: white;
+}
+.home .caption h1{
+    font-size: 70px;
+}
+.home .caption h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes typing{
+    0%{
+        content: "F|";
+    }
+    10%{
+        content: "Fr|";
+    }
+    20%{
+        content: "Fre|";
+    }
+    30%{
+        content: "Free|";
+    }
+    40%{
+        content: "Freel|";
+    }
+    50%{
+        content: "Freela|";
+    }
+    60%{
+        content: "Freelan|";
+    }
+    70%{
+        content: "Freelanc|";
+    }
+    80%{
+        content: "Freelance|";
+    }
+    90%{
+        content: "Freelancer|";
+    }
+}
+.home .caption h2{
+    font-size: 40px;
+
+}
+.home .caption p{
+    font-size: 31px;
+}  
+
+/* About////////////////////////// */
+
+.about{
+    
+    height: 100vh;
+    width: 100%;
+}
+.about .contaner1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.about .contaner1 .caption{
+    width: 60%;
+}
+.about .contaner1 .caption p{
+    padding-top: 25px;
+}
+.about .contaner1 .form{
+    width: 40%;
+}
+.about .contaner1 .form ul{
+    list-style: none;
+}
+.about .contaner1 .form button{
+    padding:15px 25px 15px 25px;
+    color: white;
+    border-color: #20c997;
+    background-color:#20c997 ;
+    border-radius: 50rem;
+    margin-left: 10px;
+}
+.about .contaner1 .form:hover button{
+    background-color:#1aae81 ;
+}
+.about .Me{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.about .Me hr{
+    /* display: flex; */
+    width: 70px;
+    margin-left: 48%;
+    background-color:#03fc6f ;
+    /* justify-content: center; */ 
+}
+.about .contaner2 .number{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    color: #6c757d;
+    /* font-size: calc(1.425rem + 2.1vw) */
+}
+.about .contaner2{
+    width: 90%;
+    margin: auto;
+    /* display: flex; */
+}
+.about .contaner2 .number .item{
+    margin-top: 15px;
+}
+
+.about .contaner2 .number h2{
+    font-weight: 500;
+
+}
+.about .contaner2 .number .lign{
+    background-color: #5d6265;
+    width: 3px;
+    height: 100px;
+}
+/* what \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* 
+   .what .item #x{
+    width: 70px;
+    height: 70px;
+
+   } */
+   .what {
+    background-color: #f8f9fa!important;
+    width: 100%;
+    height: 90vh;
+    
+   }
+   .what .contaner3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+   }
+   .what .item{
+    display: flex;
+   }
+   .what .item ul{
+    list-style: none;
+   }
+    .what .item #x li{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60px;
+    height: 100px;
+   } 
+   .what .contaner3 .item i{
+    color: #20c997;
+   }
+   
+   .what .Do h2{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+} 
+.what .Do hr{
+    width: 70px;
+    margin-left: 48%;
+    background-color:#03fc6f ;
+}
+/* portfolio11111111111111111111111111111111111111111111111111111111111111 */
+   
+.portfolio{
+    width: 100%;
+    height: 100vh;
+}
+.portfolio .contaner3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.portfolio .contaner3 h3{
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.portfolio .item .x1{
+    background-color: white;
+   border-color: rgb(124, 123, 123);
+   border-width: 3px;
+   border-style: solid;
+   padding: 50px;
+}
+.portfolio .item .x2{
+    background-color:white;
+   border-color: rgb(124, 123, 123);
+   border-width: 3px;
+   border-style: solid;
+   padding: 50px;
+}
+.portfolio .item .x3{
+    background-color: white;
+   border-color: rgb(124, 123, 123);
+   border-width: 3px;
+   border-style: solid;
+   padding: 50px;
+}
+.portfolio .item .x1 span{
+    background-color: #20c997;
+    padding-bottom: 5px;
+}
+.portfolio .item .x2 span{
+    background-color: #20c997;
+    padding-bottom: 5px;
+}
+.portfolio .item .x3 span{
+    background-color: #20c997;
+    padding-bottom: 5px;
+}
+.portfolio button{
+    margin: auto;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50rem;
+}
+.portfolio button:hover {
+    background-color: #6c757d;
+    color: white;
+}
+.portfolio .HA h2{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+} 
+.portfolio .HA hr{
+    width: 70px;
+    margin-left: 48%;
+    background-color:#03fc6f ;
+}
